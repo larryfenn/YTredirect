@@ -1,12 +1,12 @@
 {
   "name": "Youtube Frontpage Redirect",
   "description": "Redirect youtube.com to https://www.youtube.com/feed/subscriptions",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "background": {"scripts":["background.js"]},
   "permissions": [
     "webRequest",
-    "*://youtube.com/",
+    "*://*.youtube.com/",
     "webRequestBlocking"
   ]
 }
